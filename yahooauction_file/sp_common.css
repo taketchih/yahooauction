@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*
+sp_common.css
+Copyright (C) 2017 Yahoo Japan Corporation. All Rights Reserved.
+version 1.0.0
+*/
+.libBlackFtNavi{
+height:50px;
+background: #3F3F3D;
+color:#FFF;
+padding:0;
+}
+.libBlackFtNavi ul{
+  display: table;
+  width: 320px;
+  height: 50px;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+.libBlackFtNavi ul li{
+  display: table-cell;
+  width: 80px !important;
+  float: none !important;
+  height: 50px !important;
+  background: none !important;
+}
+.libBlackFtNavi ul li a{
+  width: 80px;
+  display: block;
+  height: 50px;
+  /*position: relative;*/
+  background: no-repeat url(https://s.yimg.jp/images/auc/smartphone/common/image/1.0.1/spr_ico_spftico.png);
+  -webkit-background-size: 76px 185px;
+       -o-background-size: 76px 185px;
+          background-size: 76px 185px;
+}
+.libBlackFtNavi .ptsAucTop a{background-position: 18px 9px;}
+.libBlackFtNavi .ptsMyAuc a{background-position: 16px -41px;}
+.libBlackFtNavi .ptsFleama a{background-position: 13px -91px;}
+.libBlackFtNavi .ptsAuc a{background-position: 0px -141px;}

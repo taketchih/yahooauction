@@ -1,0 +1,249 @@
+
+.waltzMd_button img{
+  width: 65px;
+  padding-bottom: 17px;
+  padding-left: 3px;
+}
+.c-Button--mainAction.waltzMd_button img{
+  padding-bottom: 16px;
+}
+.waltzMd_appealTxt a{
+  background:  url(../images/sp_arrow.png) no-repeat top right;
+  padding-right:11px;
+  background-size: 7px 11px;
+  background-position: right 3px;
+
+}
+
+.waltzMd_balance{
+  background:#f4f3ef;
+  border: 2px solid #eae8e1;
+  border-radius: 5px;
+  padding:10px;
+}
+.waltzMd_balance dd em{
+font-weight: bold;
+padding-right:2px;
+}
+.waltzMd_earning  dd em{
+  padding-right:2px;
+}
+.waltzMd_earning dt{
+  color: #666;
+}
+.waltzMd_earning dl{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  line-height: 1.4;
+}
+.waltzMd_earning dd{
+  position: absolute;
+  right:0;
+  top: 15px;
+}
+.waltzMd_earning dl , .waltzMd_earning dt , .waltzMd_earning dd{
+  display: inline-block;
+}
+
+.waltzMd_earning .c-Expand__icon{
+left: 0;
+}
+
+.waltzMd_earning.c-Expand--list .c-Expand__items{
+	padding-top:20px;
+	padding-left: 0;
+}
+.waltzMd_earning .c-Expand__body{
+	padding:0;
+}
+.waltzMd_earning.c-Expand--list , .waltzMd_earning.c-Expand--list .c-Expand__inner{
+	border: none;
+}
+.waltzMd_earning .c-Expand__head{
+	border-bottom: 1px solid #dddbd4;
+	cursor: default;
+-webkit-user-select: none;
+user-select: none;
+}
+
+.waltzMd_earning.c-Expand--list .c-Expand__inner{
+  display: inherit;
+}
+
+
+/*****expand******/
+
+.expandClose .Expand__icon:before {
+    content: '';
+    display: block;
+    height: 9px;
+    position: absolute;
+    left: 9px;
+    top: 7px;
+    border-left: 1px solid #8f8f8f;
+}
+.expandClose .Expand__icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 0;
+    height: 1px;
+    border-left: 4px solid #8f8f8f;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 0;
+}
+.expandOpen .Expand__icon:before {
+    content: '';
+    display: block;
+    width: 9px;
+    position: absolute;
+    left: 7px;
+    top: 9px;
+    border-top: 1px solid #8f8f8f;
+}
+.expandOpen .Expand__icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    width: 1px;
+    height: 0;
+    border-top: 4px solid #8f8f8f;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 0;
+}
+
+.expandTrigger_txt, .Expand__icon{
+  cursor: pointer;
+}
+.expandTrigger_txt{
+  color: #1555d5;
+  user-select: none;
+}
+.expandTrigger_txt:hover{
+  text-decoration: underline;
+}
+
+.expandClose .expandArea{
+  display:none;
+}
+.expandOpen .expandArea{
+  display: block;
+}
+.ModBalance .waltzMd_earning dd.expandBalance.open{
+  padding-top:80px;
+}
+/*****./expand******/
+
+
+
+
+/*============================================================
+
+receive
+
+============================================================*/
+
+.fnavBtn button.waltzMd_modalBtnMoney span{
+  background: url(../images/sp_receive_btn_pts.png) no-repeat no-repeat;
+  background-position: right;
+  background-size: 29px 24px;
+  padding: 7px 35px 7px 0;
+  display: inline-block;
+}
+.fnavBtn button.waltzMd_modalBtnMoney.current span {
+    background: url(../images/sp_receive_btn_pts_on.png) no-repeat no-repeat;
+    background-position: right;
+    background-size: 29px 24px;
+    padding: 7px 35px 7px 0;
+    display: inline-block;
+}
+
+
+.waltzMd_modalList{
+  margin: 20px 5px;
+  padding: 20px 10px 20px 30px;
+  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+}
+.waltzMd_modalList li{
+  list-style: disc;
+  list-style-position: outside;
+}
+
+
+.waltzMd_alart{
+  text-align: left;
+  padding-top: 2px;
+  padding-left: 25px;
+  background: url(../images/ico_noticeError.png) no-repeat;
+  background-position: 4px 3px;
+  background-size: 18px;
+}
+.beginner_mark{
+    background-image: url(https://s.yimg.jp/images/auc/pc/tradingnavi/image/1.0.0/ic_guide.png);
+    background-repeat: no-repeat;
+    background-position-y: -1px;
+    display: inline-block;
+    height: 17px;
+    margin: 2px 3px -3px 0;
+    padding-left: 15px;
+}
+
+.service_area{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service_area h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.service_area p{
+    display: inline-block;
+    width:90px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.service_area p a{
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    display: block;
+    height:40px;
+    line-height: 39px;
+}
+.service_area img{
+  /*DOCTYPE宣言されたら追加*/
+  /*vertical-align: middle;*/
+      margin-top: 14px;
+}
+
+/* paypayアイコン */
+.icon_paypay {
+  display: inline-block;
+  background: url('https://s.yimg.jp/images/payment/auc/icon_paypay.png') no-repeat;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow:hidden;
+  vertical-align: middle;
+}
+  .icon_paypay-wb {
+    border: 4px solid #fff;
+  }
+
+/* paypayテキスト */
+.text-paypay {
+  color: #FF0033;
+}

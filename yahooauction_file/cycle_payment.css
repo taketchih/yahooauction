@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*
+  cycleの決済用カスタマイズcss
+  cycleを派生させて異なるUIを作成する。
+*/
+
+/*===============
+  c-Button
+===============*/
+.c-Button--fix:disabled {
+  color: #F4BDA2;
+  background-color: #E68F65;
+  border-color: #DE8051;
+}
+
+/* 登録ボタン */
+.c-Button--registPayPay {
+  background-color: #FFFAE9;
+  font-size: 14px;
+}
+  .c-Button--registPayPay .icon_paypay {
+    margin-right: 4px;
+    background-color: #fff;
+    vertical-align: middle;
+  }
+  .c-Button--registPayPay > .icon_paypay {
+    border: 4px solid #fff;
+  }
+  .c-Button--registPayPay .wAdjust .icon_paypay {
+    margin-right: 13px;
+  }
+
+/*===============
+  c-Modal
+===============*/
+/* 次回表示設定チェック */
+.c-Modal__showFuture {
+  display: block;
+  text-align: center;
+  padding: 0;
+  color: #707070;
+  font-size: 14px;
+}
+  .c-Modal__showFuture input {
+    margin-right: 5px;
+    vertical-align: text-top;
+  }
